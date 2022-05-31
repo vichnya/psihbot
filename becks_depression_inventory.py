@@ -32,8 +32,8 @@ def rating_scale(result: int) -> str:
         diagnostic += 'Также требуется изоляция от внешних раздражителей, психологическая поддержка, нормализация сна, по согласованию с врачем прием лекарств\n'
     elif result in range(20, 30):
         diagnostic = 'выраженная депрессия средней тяжести.\nНастоятельно рекомендуем обратится за психологической помощью.\n'
-        diagnostic += 'Сайт для бесплтной психологической консультации:\nhttps://psyalter.ru/besplatnaya-psikhologicheskaya-pomosch'
+        diagnostic += 'Сайт для бесплатной психологической консультации:\nhttps://psyalter.ru/besplatnaya-psikhologicheskaya-pomosch'
     elif result in range(30, 64):
         diagnostic = 'тяжелая депрессия.\nНеобходимо обратится за психологической помощью.\n'
-        diagnostic += 'Сайт для бесплтной психологической консультации:\nhttps://psyalter.ru/besplatnaya-psikhologicheskaya-pomosch'
+        diagnostic += 'Сайт для бесплатной психологической консультации:\nhttps://psyalter.ru/besplatnaya-psikhologicheskaya-pomosch'
     return diagnostic
